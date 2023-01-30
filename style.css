@@ -1,0 +1,374 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    padding: 0 3em;
+    margin:auto;
+    max-width: 1400px;
+}
+
+.topMenu{
+    display: flex;
+    margin: auto;
+    align-items: center;    
+}
+
+.logo{
+    height: 1.5em;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: -webkit-fill-available;
+    height: 100%;
+    margin-right: 3em;
+}
+
+.navLink{
+    padding: 2em;
+    border-top: 3px transparent solid;
+    color: black;
+    text-decoration: none;    
+}
+
+a.navLink:hover{
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.searchTitle{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.searchSubtitle{
+    font-size: 19px;
+}
+
+.searchForm{
+    display: inline-flex;
+    max-width: 100%;
+    height: 3em;
+}
+
+.searchIcon{
+    padding: 1em;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 1em 0 0 1em;
+}
+
+.searchField{
+    width: 12em;
+    font-size: 1rem;
+    font-weight: bold;
+    padding:0 1em;
+    color: black;
+    border: none;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+  }
+
+.searchSubmit{
+    width: 8em;
+    font-size: 1rem;
+    font-weight: bold;
+    padding:0 1em;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 1em 1em 0;
+    border: none;
+}
+
+.searchFilters{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.searchFiltersTitle{
+    font-size: 21px;
+    padding-right: 1.5em;
+}
+
+.searchFiltersFilter{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    border: 2px solid #d9d9d9;
+    border-radius: 2em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.searchFiltersFilter:hover{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    border: 2px solid #d9d9d9;
+    border-radius: 2em;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #DEEBFF;
+}
+
+
+.filterIcon{
+    padding: 1em 1.5em;
+    color: #0065FC;
+}
+
+.filterContent{
+    padding-right: 1.5em;
+}
+
+.info{
+    display: flex;
+    margin: 1em auto;
+    height: 2.7em;
+    align-items: center;
+}
+
+.infoIcon{
+    padding: .55em;
+    height: .5em;
+    width: .5em;
+    min-height: .5em;
+    min-width: .5em;
+    border: 2px solid #d9d9d9;
+    border-radius: 4em;
+    color: #0065FC;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerGroup{
+    padding:0 2em;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.footerColumn{
+    width: 25%;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    margin-top: 3.5em;
+}
+
+.footerColumnLink{
+    margin: .5em 0;
+    text-decoration: none;
+    color: black;
+}
+
+.footerColumnLink:hover{
+    margin: .5em 0;
+    text-decoration: underline;
+    color: black;
+}
+
+.mainContent{
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 6fr 3fr;
+}
+
+.hostingContent{
+    width: 95%;
+    padding: 1em 0;
+    padding-left: 1.5em;
+    border-radius: 3em;
+    background-color:#F2F2F2;
+}
+
+.popularContent{
+    width: 90%;
+    padding: 1em 2em;
+    border-radius: 3em;
+    background-color:#F2F2F2;
+}
+
+.hostingArticle{
+    width: 27%;
+    height: 12em;
+    margin: 1em;
+    padding: 0.2em;
+    border-radius: 1.2em;
+    box-shadow: 0px 2px 16px #00000057;
+    background-color: white;
+}
+
+.hostingTitle{
+    margin: .5em 1em;
+}
+
+.hostingMore{
+    margin: 2em 1em;
+}
+
+.articles{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.hostingImage{
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.articleTitle{
+    margin: .25em 1em;
+    font-size: 1em;
+}
+
+.articlePrice{
+    margin: .2em 1em;
+}
+
+.articleRating{
+    display: flex;
+    margin: .2em 1em;
+}
+
+.bluestar{
+    color: #0065FC;
+}
+
+.greystar{
+    color: #a0a0a0;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.popularTitle{
+    display:flex;
+}
+
+.popularContent{
+    display: flex;
+    flex-flow: column;
+}
+
+.chartIcon{
+    padding: 0.83em 0;
+    margin: 0.83em 0;
+    color: #0065FC;
+    margin-left: 4.8em;
+}
+
+.popularArticle{
+    width: 100%;
+    display: flex;
+    border-radius: 1.2em;
+    box-shadow: 0px 2px 16px #00000057;
+    padding: 0.2em;
+    margin-bottom: 2.2em;
+    height:8em;
+    background-color: white;
+}
+
+.articleText{
+    display: flex;
+    flex-flow: column;
+}
+
+.popularImage{
+    height: 8rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.popularTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularImageWrap{
+    width:8em;
+    height: 8em;
+}
+
+.popularRating{
+    display: flex;
+    margin: 0.2em 1em;
+}
+
+.activities{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+.activitiesCard1{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    grid-column: 1 ;
+}
+
+.activitiesCard2{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    grid-column: 2 ;
+}
+.activitiesCard3{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    grid-column: 3 ;
+}
+.activitiesCard4{
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+    grid-column: 4 ;
+}
+
+.activitiesImage{
+    height: 30em;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+    cursor: pointer;
+}
+
+.activitiesTitle{
+    margin: 1em 1em;
+    cursor: pointer;
+}
