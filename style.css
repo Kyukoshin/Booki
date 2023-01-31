@@ -3,7 +3,7 @@
 }
 
 body{
-    padding: 0 3em;
+    padding: 0 2em;
     margin:auto;
     max-width: 1400px;
 }
@@ -12,6 +12,7 @@ body{
     display: flex;
     margin: auto;
     align-items: center;    
+    justify-content: space-between;
 }
 
 .logo{
@@ -21,7 +22,6 @@ body{
 .nav{
     display: flex;
     justify-content: flex-end;
-    width: -webkit-fill-available;
     height: 100%;
     margin-right: 3em;
 }
@@ -148,37 +148,6 @@ input::placeholder{
     justify-content: center;
 }
 
-.footerGroup{
-    padding:0 2em;
-    display: flex;
-    background-color: #F2F2F2;
-}
-
-.footerColumn{
-    width: 25%;
-    padding:2em;
-    display: flex;
-    flex-direction: column;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.footer{
-    margin-top: 3.5em;
-}
-
-.footerColumnLink{
-    margin: .5em 0;
-    text-decoration: none;
-    color: black;
-}
-
-.footerColumnLink:hover{
-    margin: .5em 0;
-    text-decoration: underline;
-    color: black;
-}
-
 .mainContent{
     display: grid;
     column-gap: 2em;
@@ -195,7 +164,7 @@ input::placeholder{
 
 .popularContent{
     width: 90%;
-    padding: 1em 2em;
+    padding: 1em 1.3em;
     border-radius: 3em;
     background-color:#F2F2F2;
 }
@@ -208,6 +177,9 @@ input::placeholder{
     border-radius: 1.2em;
     box-shadow: 0px 2px 16px #00000057;
     background-color: white;
+    color: black;
+    text-decoration: none;
+    min-width: 240px;
 }
 
 .hostingTitle{
@@ -262,11 +234,6 @@ input::placeholder{
     display:flex;
 }
 
-.popularContent{
-    display: flex;
-    flex-flow: column;
-}
-
 .chartIcon{
     padding: 0.83em 0;
     margin: 0.83em 0;
@@ -283,6 +250,8 @@ input::placeholder{
     margin-bottom: 2.2em;
     height:8em;
     background-color: white;
+    color: black;
+    text-decoration: none;
 }
 
 .articleText{
@@ -297,6 +266,7 @@ input::placeholder{
     width: 100%;
     max-height: 100%;
     border-radius: 1rem 0 0 1rem;
+    min-width: 130px;
 }
 
 .popularTitle{
@@ -328,6 +298,7 @@ input::placeholder{
     flex-direction: column;
     transition-duration: 0.1s;
     grid-column: 1 ;
+    min-width: 250px;
 }
 
 .activitiesCard2{
@@ -338,6 +309,7 @@ input::placeholder{
     flex-direction: column;
     transition-duration: 0.1s;
     grid-column: 2 ;
+    min-width: 250px;
 }
 .activitiesCard3{
     box-shadow: 0 0 20px #0000002e;
@@ -347,6 +319,7 @@ input::placeholder{
     flex-direction: column;
     transition-duration: 0.1s;
     grid-column: 3 ;
+    min-width: 250px;
 }
 .activitiesCard4{
     box-shadow: 0 0 20px #0000002e;
@@ -356,10 +329,11 @@ input::placeholder{
     flex-direction: column;
     transition-duration: 0.1s;
     grid-column: 4 ;
+    min-width: 250px;
 }
 
 .activitiesImage{
-    height: 30em;
+    height: 25em;
     object-fit: cover;
     max-width: 100%;
     width: 100%;
@@ -371,4 +345,35 @@ input::placeholder{
 .activitiesTitle{
     margin: 1em 1em;
     cursor: pointer;
+}
+
+.footerGroup{
+    padding:0 2em;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.footerColumn{
+    width: 25%;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    margin-top: 3.5em;
+}
+
+.footerColumnLink{
+    margin: .5em 0;
+    text-decoration: none;
+    color: black;
+}
+
+.footerColumnLink:hover{
+    margin: .5em 0;
+    text-decoration: underline;
+    color: black;
 }
