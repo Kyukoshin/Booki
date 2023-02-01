@@ -452,10 +452,14 @@ input::placeholder{
         border-radius: 2em;
         cursor: pointer;
         font-weight: bold;
-        width: 40%;
+        width: 43%;
     }
     .filterIcon{
         padding: 1em;
+    }
+    .filterContent{
+        padding:1em 0 ;
+        font-size: clamp(10px,1vw,20px);
     }
     .articles {
         grid-template-rows: repeat(6, 1fr);
