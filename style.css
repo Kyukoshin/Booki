@@ -41,10 +41,13 @@ a.navLink:hover{
 .searchTitle{
     font-weight: bold;
     font-size: 26px;
+    margin-bottom: .2em;
 }
 
 .searchSubtitle{
     font-size: 19px;
+    margin-top: .2em;
+    margin-bottom: 2em;
 }
 
 .searchForm{
@@ -70,7 +73,7 @@ a.navLink:hover{
     font-weight: bold;
     padding:0 1em;
     color: black;
-    border: none;
+    border: 1px solid #F2F2F2;
 }
 
 input::placeholder{
