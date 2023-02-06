@@ -162,7 +162,7 @@ input::placeholder{
 }
 
 .hostingContent{
-    width: 95%;
+    width: 97%;
     padding: 1em 0;
     padding-left: 1.5em;
     border-radius: 3em;
@@ -289,6 +289,11 @@ input::placeholder{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
+
+}
+
+.activitiesCategory{
+    padding-left: 1em;
 }
 
 .activitiesCard1{
@@ -415,6 +420,9 @@ input::placeholder{
     .hostingTitle {
         margin: 0.5em 0em;
     }
+    .activities{
+        width: 97%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -476,6 +484,7 @@ input::placeholder{
     .hostingContent {
         order: 2;
         margin-top: 2em;
+        padding-left: .5em;
     }
     .mainContent {
         grid-template-columns: 1fr;
@@ -505,6 +514,9 @@ input::placeholder{
         grid-row: 4;
         grid-column: 1/8;
     }
+    .activities{
+        width: 97%;
+    }
     .footerGroup {
         flex-direction: column;
 
@@ -513,5 +525,9 @@ input::placeholder{
         align-content: flex-start;
         width: auto;
     }
+    .popularContent{
+        padding: 1em 0.5em
+    }
+
 }
 
