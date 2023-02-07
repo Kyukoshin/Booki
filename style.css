@@ -165,14 +165,14 @@ input::placeholder{
     width: 97%;
     padding: 1em 0;
     padding-left: 1.5em;
-    border-radius: 3em;
+    border-radius: 20px;
     background-color:#F2F2F2;
 }
 
 .popularContent{
     width: 93%;
     padding: 1em 1.3em;
-    border-radius: 3em;
+    border-radius: 20px;
     background-color:#F2F2F2;
 }
 
@@ -183,10 +183,6 @@ input::placeholder{
     background-color: white;
     color: black;
     text-decoration: none;
-}
-
-.hostingTitle{
-    margin: .5em 1em;
 }
 
 .hostingMore{
@@ -416,9 +412,7 @@ input::placeholder{
     }
     .popularContent{
         margin-top:2em;
-    }
-    .hostingTitle {
-        margin: 0.5em 0em;
+        width: 95%;
     }
     .activities{
         width: 97%;
@@ -485,6 +479,7 @@ input::placeholder{
         order: 2;
         margin-top: 2em;
         padding-left: .5em;
+        background-color: white;
     }
     .mainContent {
         grid-template-columns: 1fr;
@@ -526,7 +521,9 @@ input::placeholder{
         width: auto;
     }
     .popularContent{
-        padding: 1em 0.5em
+        padding: 1em 7em;
+        background-size: 122em 83em;
+        margin: 0 -6em;
     }
 
 }
