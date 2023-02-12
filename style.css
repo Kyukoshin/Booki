@@ -186,7 +186,9 @@ input::placeholder{
 }
 
 .hostingMore{
-    margin-top: 3em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold
 }
 
 .articles{
@@ -194,6 +196,11 @@ input::placeholder{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
     width: inherit;
+    margin-bottom: 2em;
+}
+
+article{
+    display: grid;
 }
 
 .hostingImage{
@@ -220,7 +227,7 @@ input::placeholder{
 }
 
 .greystar{
-    color: #a0a0a0;
+    color: #D9D9D9;
 }
 
 .spacer{
@@ -390,7 +397,7 @@ input::placeholder{
     color: black;
 }
 
-@media only screen and (min-width:768px) and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     .mainContent{
         display:block;
     }
@@ -401,7 +408,6 @@ input::placeholder{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5em;
-
     }
     .popularImage{
         min-width: 0px;
@@ -514,7 +520,6 @@ input::placeholder{
     }
     .footerGroup {
         flex-direction: column;
-
     }
     .footerColumn{
         align-content: flex-start;
@@ -524,6 +529,9 @@ input::placeholder{
         padding: 1em 7em;
         background-size: 122em 83em;
         margin: 0 -6em;
+    }
+    .layoutPopularArticles{
+        display: block;
     }
 
 }
