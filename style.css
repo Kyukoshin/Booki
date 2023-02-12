@@ -3,7 +3,6 @@
 }
 
 body{
-    padding: 0 2em;
     margin:auto;
     max-width: 1400px;
 }
@@ -17,6 +16,7 @@ body{
 
 .logo{
     height: 1.5em;
+    padding: 2em;
 }
 
 .nav{
@@ -36,6 +36,10 @@ body{
 a.navLink:hover{
     border-top: 3px solid #0065FC;
     color: #0065FC;
+}
+
+main{
+    margin: 0 2em;
 }
 
 .searchTitle{
@@ -157,7 +161,7 @@ input::placeholder{
 
 .mainContent{
     display: grid;
-    column-gap: 2em;
+    column-gap: 1em;
     grid-template-columns: 6fr 3fr;
 }
 
@@ -170,7 +174,7 @@ input::placeholder{
 }
 
 .popularContent{
-    width: 93%;
+    width: 89%;
     padding: 1em 1.3em;
     border-radius: 20px;
     background-color:#F2F2F2;
@@ -199,7 +203,7 @@ input::placeholder{
     margin-bottom: 2em;
 }
 
-#article{
+article{
     display: grid;
 }
 
@@ -246,7 +250,7 @@ input::placeholder{
 }
 
 .popularArticle{
-    width: 100%;
+
     display: flex;
     border-radius: 1.2em;
     box-shadow: 0px 2px 16px #00000057;
@@ -418,7 +422,7 @@ input::placeholder{
     }
     .popularContent{
         margin-top:2em;
-        width: 95%;
+        width: 94%;
     }
     .activities{
         width: 97%;
@@ -488,7 +492,8 @@ input::placeholder{
         background-color: white;
     }
     .mainContent {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-flow: column;
     }
     .articleText {
         font-size: clamp(15px,1vw,20px);
@@ -526,12 +531,24 @@ input::placeholder{
         width: auto;
     }
     .popularContent{
-        padding: 1em 7em;
-        background-size: 122em 83em;
-        margin: 0 -6em;
+        border-radius: 0;  
+        margin-left: -2em;
+        padding-left: 2.6em;
+        width: 100%;
+    }
+    .popularTitle{
+        max-width: 98%;      
+    }
+    .popularImage{
+        width: 25vw;
+        min-width: 145px;
+    }
+    .popularImageWrap{
+        width: fit-content;   
     }
     .layoutPopularArticles{
         display: block;
+        max-width: 97%;
     }
 
 }
