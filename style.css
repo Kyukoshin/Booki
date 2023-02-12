@@ -199,7 +199,7 @@ input::placeholder{
     margin-bottom: 2em;
 }
 
-article{
+#article{
     display: grid;
 }
 
