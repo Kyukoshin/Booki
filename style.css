@@ -401,7 +401,7 @@ article{
     color: black;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .mainContent{
         display:block;
     }
@@ -429,7 +429,7 @@ article{
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .topMenu{
         flex-flow: column;
     }
